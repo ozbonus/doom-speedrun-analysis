@@ -4,7 +4,7 @@ An incomplete set of tools for extracting data from Classic Doom speedruns.
 
 # Requirements
 
-A Linux machine with `tesseract-ocr` and `imagemagick`, until the Python components are added.
+A Linux machine with `libav-tools`, `tesseract-ocr` and `imagemagick`, until the Python components are added.
 
 # Usage
 
