@@ -16,7 +16,7 @@ Run `./pull-data.sh movie` where `movie` is a recording of a Classic Doom speedr
 
 This script takes a video of Classic Doom gameplay as input and extracts each frame into a temporary directory. Imagemagick then extracts key areas of each frame. Next, Tesseract performs and OCR operation on each image. Finally, all of this is wrapped up in a nice little file.
 
-It is not an elegant script. I predominantly wrote it in order to practice writing something in bash. The most valuable lesson I learned was that I don't like bash.
+It is not an elegant script. Expect it to take an hour or more when dealing with full playthroughs. I predominantly wrote it in order to practice writing something in bash. The most valuable lesson I learned was that I don't prefer bash.
 
 # data.csv
 
