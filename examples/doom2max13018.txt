@@ -1,0 +1,54 @@
+Doomed Speed Demos Archive
+http://doomedsda.us/
+-------------------------------------------
+Pwad:	DOOM2.WAD
+Pwad name: Doom 2: Heck on Earth	
+Maps:	01-32
+Skill:	4
+Category:	UV Max
+Exe:      	PRboom+ 2.5.1.4 cl2
+	with advanced HUD
+-------------------------------------------
+Time:     	1:30:18
+-------------------------------------------
+Comments:  
+Don't watch Downtown.
+
+MAP01 - 0:48 / 0:48
+MAP02 - 1:23 / 2:11
+MAP03 - 1:26 / 3:37
+MAP04 - 1:00 / 4:37
+MAP05 - 2:38 / 7:15
+MAP06 - 2:42 / 9:57
+MAP07 - 0:58 / 10:55 
+MAP08 - 2:51 / 13:46
+MAP09 - 4:19 / 18:05
+MAP10 - 3:58 / 22:03
+MAP11 - 2:22 / 24:25
+MAP12 - 3:52 / 28:17
+MAP13 - 4:57 / 33:14
+MAP14 - 1:57 / 35:11
+MAP15 - 5:31 / 40:42
+MAP31 - 2:16 / 42:58
+MAP32 - 0:51 / 43:49
+MAP16 - 2:53 / 46:42
+MAP17 - 3:56 / 50:38 
+MAP18 - 3:11 / 53:49
+MAP19 - 3:47 / 57:36 
+MAP20 - 3:38 / 61:14
+MAP21 - 2:10 / 63:24  
+MAP22 - 1:32 / 64:56
+MAP23 - 2:48 / 67:44  
+MAP24 - 5:30 / 73:14
+MAP25 - 2:05 / 75:19
+MAP26 - 3:02 / 78:21
+MAP27 - 3:57 / 82:18
+MAP28 - 2:57 / 85:15
+MAP29 - 3:50 / 89:05
+MAP30 - 1:13 / 90:18
+-------------------------------------------
+Author:    Cyberdemon531
+cyberdemon@boun.cr
+http://www.twitch.tv/cyberdemon531
+https://www.youtube.com/user/Cyberdemon531
+
