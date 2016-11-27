@@ -78,14 +78,7 @@ main() {
   ((!$#)) && echo "You must specify a video." && exit 1
   mkdir $WORKSPACE 2>/dev/null
   extract_images
-  crop health
-  crop armor
-  crop level
-  crop progress
-  ocr health
-  ocr armor
-  ocr level
-  ocr progress
+  for i in health armor level progress; do crop $i; ocr $i; done
   combine
   cleanup
 }
