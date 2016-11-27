@@ -20,7 +20,7 @@ It is not an elegant script. I predominantly wrote it in order to practice writi
 
 # data.csv
 
-The data file output by the script comprises four columns: `health`, `armor`, `level`, and `progress`, polled twice per second from gameplay. Here's what the columns represent:
+The data file output by the script comprises four columns: `health`, `armor`, `level`, and `progress`, polled four times per second from gameplay. Here's what the columns represent:
 
 * `health`: The health value of the player.
 * `armor`: The armor value of the player.
@@ -33,7 +33,7 @@ First, acquire a demo that interests you in `lmp` format. A good place to look i
 
 You will need to run the demo with the OCR pwad enabled while recording playback as a video file. Imagemagick can handle a wide range of video formats.
 
-The extraction script assumes that the video file will be 800x600 and 2fps. [OBS Studio](obsproject.com) is a free, open source, and cross-platform program that does a good job of this.
+The extraction script assumes that the video file will be 800x600 and 4fps. [OBS Studio](obsproject.com) is a free, open source, and cross-platform program that does a good job of this.
 
 # OCR.wad
 
