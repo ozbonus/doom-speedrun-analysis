@@ -27,7 +27,7 @@ The data file output by the script comprises four columns: `health`, `armor`, `l
 
 # How to Prepare a Speedrun
 
-First, acquire a demo that interests you in `lmp` format. A good place to look is [The DooMed Speed Demos Archive](doomedsda.us).
+First, acquire a demo that interests you in `lmp` format. A good place to look is [The DooMed Speed Demos Archive](http://www.doomedsda.us).
 
 You will need to run the demo with the OCR pwad enabled while recording playback as a video file. Imagemagick can handle a wide range of video formats.
 
