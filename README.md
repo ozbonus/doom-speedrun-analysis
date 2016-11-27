@@ -2,6 +2,8 @@
 
 An incomplete set of tools for extracting data from Classic Doom speedruns.
 
+Currently, only Doom 2 is supported, with Doom 1 support sure to come, someday.
+
 # Requirements
 
 A Linux machine with `libav-tools`, `tesseract-ocr` and `imagemagick`, until the Python components are added.
