@@ -23,9 +23,6 @@ crop () {
     level)
       local region='500x60+150+6'
       ;;
-    progress)
-      local region='500x60+150+81'
-      ;;
   esac
   mkdir $WORKSPACE/$1
   for f in $WORKSPACE/*.png
@@ -41,7 +38,7 @@ crop () {
 # $1 - Directory name.
 ocr() {
   case $1 in
-    health|armor|progress)
+    health|armor)
       local psm=8
       ;;
     level)
@@ -78,7 +75,7 @@ main() {
   ((!$#)) && echo "You must specify a video." && exit 1
   mkdir $WORKSPACE 2>/dev/null
   extract_images
-  for i in health armor level progress; do crop $i; ocr $i; done
+  for i in health armor level; do crop $i; ocr $i; done
   combine
   cleanup
 }
