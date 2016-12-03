@@ -32,12 +32,6 @@ crop () {
   do
     echo "Cropping the $1 region from $(basename $f)"
     convert -crop $region $f $WORKSPACE/$1/$(basename $f)
-    # Make certain image more easily read by the OCR program.
-    case $1 in
-      health|armor)
-        mogrify -resize 200% -median 5 $WORKSPACE/$1/$(basename $f)
-        ;;
-    esac
   done
   echo "Finished cropping $1"
 }
@@ -52,7 +46,7 @@ ocr() {
       ;;
     level)
       local psm=7
-      local whitelist="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789 "
+      local whitelist="ABCDEFGHIJKLMNOPQRSTUVWXYZ"
       ;;
   esac
   local counter=1
