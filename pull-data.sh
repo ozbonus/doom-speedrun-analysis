@@ -42,7 +42,7 @@ ocr() {
   case $1 in
     health|armor)
       local psm=8
-      local whitelist="0123456789%"
+      local whitelist="0123456789"
       ;;
     level)
       local psm=7
