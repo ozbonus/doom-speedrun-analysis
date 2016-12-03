@@ -13,6 +13,7 @@ extract_images() {
 # Assume that the images are 800x600.
 # $1 - Crop region and new directory name.
 crop () {
+  # Tell ImageMagick where to crop based on parameter input.
   case $1 in
     health)
       local region='150x55+115+510'
@@ -24,12 +25,19 @@ crop () {
       local region='500x60+150+6'
       ;;
   esac
+  # Make a directory to store the cropped images.
   mkdir $WORKSPACE/$1
+  # Crop every frame in the $WORKSPACE directory.
   for f in $WORKSPACE/*.png
   do
     echo "Cropping the $1 region from $(basename $f)"
     convert -crop $region $f $WORKSPACE/$1/$(basename $f)
-    mogrify -resize 200% -median 5 $WORKSPACE/$1/$(basename $f)
+    # Make certain image more easily read by the OCR program.
+    case $1 in
+      health|armor)
+        mogrify -resize 200% -median 5 $WORKSPACE/$1/$(basename $f)
+        ;;
+    esac
   done
   echo "Finished cropping $1"
 }
