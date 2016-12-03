@@ -16,10 +16,10 @@ crop () {
   # Tell ImageMagick where to crop based on parameter input.
   case $1 in
     health)
-      local region='150x55+115+510'
+      local region='110x55+115+510'
       ;;
     armor)
-      local region='150x55+445+510'
+      local region='110x55+440+510'
       ;;
     level)
       local region='500x60+150+6'
