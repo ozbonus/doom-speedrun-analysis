@@ -48,12 +48,13 @@ ocr() {
   case $1 in
     health|armor)
       local psm=8
+      local whitelist="0123456789%"
       ;;
     level)
       local psm=7
+      local whitelist="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789 "
       ;;
   esac
-  local whitelist="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789%"
   local counter=1
   echo $1 > $WORKSPACE/$1.txt
   for f in $WORKSPACE/$1/*.png
