@@ -33,7 +33,7 @@ First, acquire a demo that interests you in `lmp` format. A good place to look i
 
 You will need to run the demo with the OCR pwad enabled while recording playback as a video file. Imagemagick can handle a wide range of video formats.
 
-The extraction script assumes that the video file will be 800x600 and 4fps. [OBS Studio](obsproject.com) is a free, open source, and cross-platform program that does a good job of this.
+The extraction script assumes that the video file will be 800x600 and 8fps. [OBS Studio](obsproject.com) is a free, open source, and cross-platform program that does a good job of this.
 
 # OCR.wad
 
