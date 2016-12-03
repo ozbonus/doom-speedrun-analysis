@@ -20,7 +20,7 @@ It is not an elegant script. Expect it to take an hour or more when dealing with
 
 # data.csv
 
-The data file output by the script comprises four columns: `health`, `armor`, `level`, and `progress`, polled four times per second from gameplay. Here's what the columns represent:
+The data file output by the script comprises four columns: `health`, `armor`, `level`, and `progress`, polled eight times per second from gameplay. Here's what the columns represent:
 
 * `health`: The health value of the player.
 * `armor`: The armor value of the player.
